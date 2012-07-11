@@ -5,11 +5,11 @@ Async.js Quick Examples
 
 ## Usage
 
-* Install [Jake](https://github.com/mde/jake/) if not installed.
+Install [Jake](https://github.com/mde/jake/) if not installed.
 
     $ sudo npm install -g jake
 
-* Run `jake test`.
+Run `jake test`.
 
 ## References
 
