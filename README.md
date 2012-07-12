@@ -16,3 +16,4 @@ Run `jake test`.
 * [Async.js](https://github.com/caolan/async/)
 * [Nodeunit](https://github.com/caolan/nodeunit/)
 * [Jake -- JavaScript build tool for Node.js](https://github.com/mde/jake/)
+* [Function.prototype.bind](http://www.rajeshsegu.com/2012/06/js-function-prototype-bind/)

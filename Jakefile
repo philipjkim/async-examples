@@ -6,3 +6,8 @@ task('test', function () {
     complete();
   }, {printStdout: true});
 }, {async: true});
+
+desc('Default task is test');
+task('default', function() {
+  jake.Task.test.invoke();
+});
