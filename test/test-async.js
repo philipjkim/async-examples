@@ -23,7 +23,7 @@ function mapIterator(call_order, x, callback) {
   }, x*25);
 }
 
-exports['forEach'] = function(test){
+exports.forEach = function(test){
   var args = [];
   async.forEach([1,3,2], forEachIterator.bind(this, args), function(err){
     test.same(args, [1,2,3]);
@@ -31,7 +31,7 @@ exports['forEach'] = function(test){
   });
 };
 
-exports['map'] = function(test){
+exports.map = function(test){
   var call_order = [];
   async.map([1,3,2], mapIterator.bind(this, call_order), function(err, results){
     test.same(call_order, [1,2,3]);
